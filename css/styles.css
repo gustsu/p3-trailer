@@ -52,7 +52,7 @@ text-align: center;
 .mejs-treehouse .mejs-controls .mejs-time-rail .mejs-time-buffering,
 .mejs-treehouse .mejs-controls .mejs-time-rail .mejs-time-handle
 {
-  background: #222;
+  background: url(../img/videobg2.png);
   margin: 0;
 }
 
