@@ -23,8 +23,18 @@ text-align: center;
   height: 30px;
 }
 
+
+
+/* sets the play button to the same bg as the progress bar but misses the bottom part
+.mejs-treehouse .mejs-controls .mejs-button
+{
+  
+  background: url(../img/videobg3.png);
+}*/
+
 .mejs-treehouse .mejs-controls .mejs-button button {
   outline: none;
+
 }
 
 .mejs-treehouse .mejs-controls .mejs-captions-button {
@@ -52,13 +62,13 @@ text-align: center;
 .mejs-treehouse .mejs-controls .mejs-time-rail .mejs-time-buffering,
 .mejs-treehouse .mejs-controls .mejs-time-rail .mejs-time-handle
 {
-  background: url(../img/videobg2.png);
+  background: url(../img/videobg3.png);
   margin: 0;
 }
 
 .mejs-treehouse .mejs-controls .mejs-time-rail .mejs-time-current{
 background: orange;
-opacity: .5;
+
 height: 50%;
 margin-top: 7px;
 border-radius: 20px;
@@ -77,6 +87,12 @@ margin-right: 15px;
 
 }
 
+
+.mejs-treehouse .mejs-controls{
+
+
+
+}
 
 
 /********************
