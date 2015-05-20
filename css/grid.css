@@ -14,7 +14,8 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-img {
+img, video, audio,
+.mejs-mediaeleme {
 	width: 100%;
 }
 
