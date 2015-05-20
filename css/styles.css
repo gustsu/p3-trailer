@@ -9,6 +9,13 @@ video{
 
 }
 
+#mainlogo{
+display: block;
+margin: 0 auto;
+width:90%;
+text-align: center;
+}
+
 
 
 .mejs-treehouse .mejs-controls {
