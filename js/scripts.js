@@ -20,6 +20,18 @@ $("#mainlogo").fadeIn(2000);
 $("#fade").hide();
 $("#fade").slideDown(3000);
 
+//credit to stack overflow for the smooth scrolls
+var $root = $('html, body');
+$('a').click(function() {
+    var href = $.attr(this, 'href');
+    $root.animate({
+        scrollTop: $(href).offset().top
+    }, 500, function () {
+        window.location.hash = href;
+    });
+    return false;
+});
+
 
 
 
