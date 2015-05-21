@@ -19,11 +19,12 @@ margin-left: 20px;
 
 width:21%;
 text-align: center;
+transition: opacity, background .5s;
 }
 
 .navigation li:hover{
-    background: black;
-    opacity:.2;
+    background: #222;
+    opacity:.4;
     
 
 }
@@ -57,10 +58,13 @@ display: block;
 margin: 0 auto;
 width:90%;
 text-align: center;
+transition: opacity .5s;
 }
 
 
-
+#mainlogo:hover{
+opacity: .7;
+}
 
 
 .mejs-container {
