@@ -2,6 +2,41 @@
 YOUR STYLES
 *******************/
 
+.navigation{
+background: url(../img/videobg2.png);
+position: fixed;
+margin-top: -5px;
+width: 100%;
+
+
+}
+
+.navigation li{
+
+float:left;
+margin: 10px;
+margin-left: 100px;
+margin-right: 100px;
+
+}
+
+.navigation li:hover{
+    background: black;
+    opacity:.2;
+    
+
+}
+
+
+
+body{
+    background:url(../img/bg2.JPG) fixed;
+
+}
+
+
+
+
 video{
 		border:none;
         
@@ -16,6 +51,16 @@ width:90%;
 text-align: center;
 }
 
+
+
+
+
+.mejs-container {
+
+width: 200px;
+
+
+}
 
 
 .mejs-treehouse .mejs-controls {
