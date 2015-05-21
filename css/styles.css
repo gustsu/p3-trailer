@@ -2,33 +2,88 @@
 YOUR STYLES
 *******************/
 
+
+
+
+ul
+{
+    list-style-type: none;
+}
+
+p{
+
+font-family: 'Orbitron', sans-serif;
+font-weight: 500;
+font-size:19pt;
+color:#e64f19;
+margin: 72px;
+
+}
+
+h4{
+text-align: center;
+color:#e64f19   ;
+font-family: 'Orbitron', sans-serif;
+font-weight: 900;
+font-size:40pt;
+
+}
+
+
+h3{
+text-align: center;
+color:#e64f19   ;
+font-size:60pt;
+font-family: 'Orbitron', sans-serif;
+font-weight: 900;
+text-transform: uppercase;
+transition: background .5s;
+background-color: rgba(255,255,255,0.5);
+
+}
+
+h3:hover{
+background-color: rgba(255,255,255,0.9);
+}
+
 .navigation{
 background: url(../img/videobg2.png);
 position: fixed;
 margin-top: -5px;
 width: 100%;
+z-index: 5;
 
 
 }
 
 .navigation li{
-
+font-family: 'Orbitron', sans-serif;
+font-weight: 500;
+font-size: 18pt;
 float:left;
 margin: 10px;
-margin-left: 20px;
-
+margin-left: 40px;
+color:black;
 width:21%;
 text-align: center;
 transition: opacity, background .5s;
 }
 
 .navigation li:hover{
-    background: #222;
-    opacity:.4;
+    background:white;
+    opacity:.6;
+    color:black;
     
 
 }
 
+.navigation li:active{
+    background:whitesmoke;
+
+    color:#e64f19   ;
+    
+
+}
 .quotes li{
 margin: 100px;
 float:left;
@@ -36,12 +91,47 @@ float:left;
 
 }
 
+#plot{
+margin-bottom:  -45px;
+}
+
+#creviewsdiv, #plotdiv{
+opacity: .5;
+background: white;
+transition: opacity .5s;
+z-index: -5;
+}
+
+#creviewsdiv:hover, #plotdiv:hover{
+opacity: .9;
+
+}
+
+#plotdiv p{
+line-height: 34px;
+color:black;
+}
+
+#creviewsdiv p {
+text-align: center;
+margin:30px;
+margin-bottom: 120px;
+font-family: 'Orbitron', sans-serif;
+font-weight: 500;
+
+}
+
+#creviewsdiv span{
+
+color:black;
+}
 
 
 body{
-    background:url(../img/bg2.JPG) fixed;
+    background:url(../img/mm9.jpg) fixed;
 
 }
+
 
 
 
@@ -64,10 +154,9 @@ text-align: center;
 
 
 
-
 .mejs-container {
 
-width: 200px;
+margin: 0 auto;
 
 
 }
@@ -126,9 +215,9 @@ background: orange;
 
 height: 50%;
 margin-top: 7px;
-border-radius: 20px;
+border-radius: 50px;
 margin-left: 15px;
-margin-right: 15px;
+margin-right: 30px;
     
 
 }

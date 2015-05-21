@@ -15,8 +15,10 @@ $('audio,video').mediaelementplayer({
 
 
 $("#mainlogo").hide();
-$("#mainlogo").fadeIn(3000);
+$("#mainlogo").fadeIn(2000);
 
+$("#fade").hide();
+$("#fade").slideDown(3000);
 
 
 
