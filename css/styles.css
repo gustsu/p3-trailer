@@ -15,15 +15,23 @@ width: 100%;
 
 float:left;
 margin: 10px;
-margin-left: 100px;
-margin-right: 100px;
+margin-left: 20px;
 
+width:21%;
+text-align: center;
 }
 
 .navigation li:hover{
     background: black;
     opacity:.2;
     
+
+}
+
+.quotes li{
+margin: 100px;
+float:left;
+
 
 }
 
