@@ -17,7 +17,8 @@ $('audio,video').mediaelementplayer({
 $("#mainlogo").hide();
 $("#mainlogo").fadeIn(3000);
 
-
+$(".navigation").hide();
+$(".navigation").fadeIn(3000);
 
 
 
