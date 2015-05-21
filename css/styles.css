@@ -58,13 +58,11 @@ display: block;
 margin: 0 auto;
 width:90%;
 text-align: center;
-transition: opacity .5s;
+
 }
 
 
-#mainlogo:hover{
-opacity: .7;
-}
+
 
 
 .mejs-container {
