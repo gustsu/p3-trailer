@@ -244,8 +244,13 @@ MEDIA QUERIES
 *******************/
 
 /* Desktop */
-@media (min-width: 1200px) {
+@media (max-width: 1320px) {
+.navigation li{
+    margin-left: 20px;
+    font-size: 14pt;
 
+
+}
 }
 
 /* Tablet */
