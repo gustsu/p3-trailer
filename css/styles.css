@@ -70,7 +70,7 @@ transition: opacity, background .5s;
 }
 
 .navigation li:hover{
-    background:white;
+    background:whitesmoke;
     opacity:.6;
     color:black;
     
@@ -97,7 +97,7 @@ margin-bottom:  -45px;
 
 #creviewsdiv, #plotdiv{
 opacity: .5;
-background: white;
+background: whitesmoke;
 transition: opacity .5s;
 z-index: -5;
 }
