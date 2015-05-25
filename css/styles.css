@@ -31,6 +31,7 @@ font-size:40pt;
 
 
 h3{
+padding-top: 15px;
 text-align: center;
 color:#e64f19   ;
 font-size:60pt;
@@ -54,6 +55,10 @@ width: 100%;
 z-index: 5;
 
 
+}
+
+li{
+padding-top: 5px;
 }
 
 .navigation li{
